@@ -45,7 +45,7 @@
 		background-color:blue;
 		color:white;
 		display:inline-block;
-		padding:6px;
+		padding:8.25px;
 		border-right:1px solid white;
 		text-decoration:none;
 		text-weight:bold;
@@ -61,7 +61,7 @@
 	
 	/*Main Section*/
 	#main { 
-		background-color:black;
+		background-color:white;
 		width:100%;
 		padding:10px;
 		overflow:hidden;
@@ -69,12 +69,13 @@
 	#announcements { 
 		background-color: white;
 		padding:15px;
-		width:67.5%;
+		width:65.5%;
 		float:left;
+		border:2px solid orange;
 	}
 	.announcements{
 		border-bottom:1px solid gray;
-	}
+	} 
 	#socialLinks{ 
 		background-color: white;
 		width:30%;
@@ -88,28 +89,44 @@
 	#events {
 		background-color: LightYellow ;
 		width:30%;
-		height:100px;
 		float:right;
+		border:1px solid orange;
+		margin-top:5px;
 	}
 	#links {
 		background-color: LightGoldenRodYellow;
 		width:30%;
-		height:100px;
 		float:right;
+		border:2px solid orange;
 	}
 	#baysidePublication { 
 		background-color: white;
 		width:30%;
 		float:right;
+		border:2px solid grey;
 	}
+	
 	#weather { 
-	background-color: purple;
-	width:100%;
-	height:100px;
+	background-color: LightGoldenRodYellow;
+	width:30%;
+	float:right;
+	border:1px solid orange;
 	}
+	
 	/*Footer Section*/
-	<!-- Footer: Address, Company Logo, Company Links, Select Language -->
-
+		/*<!-- Footer: Address, Company Logo, Company Links, Select Language -->*/
+	#footer { 
+		background-color: gray;
+	}
+	#add{ 
+	background-color: gray;
+	width:65%;
+	float: left;
+	}
+	#companyLogo{
+		float:right;
+		width:35%;
+	}
 
 </style>
 </head>
@@ -141,14 +158,15 @@
 	</div>
 	<div id="login">
 		<form>
-			LOGIN  
-			Username <input type="text" id="username">
-			Password <input type="password" id="password">
-			<input type="button" value="login">
-			<a href="http://www.baysidehighschool.org/forgotpassword">Forgot Password</a>
-			Need Help?  <a href="http://www.baysidehighschool.org/en/help_user_group_home.htm#firstlogin">English</a> | <a href="http://www.baysidehighschool.org/es/help_user_group_home.htm#firstlogin">Español</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOGIN  
+			&nbsp;&nbsp;&nbsp;&nbsp;Username <input type="text" id="username">
+			&nbsp;&nbsp;&nbsp;&nbsp;Password <input type="password" id="password">
+			&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="login">
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.baysidehighschool.org/forgotpassword">Forgot Password</a>
+			&nbsp;&nbsp;&nbsp;Need Help? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="http://www.baysidehighschool.org/en/help_user_group_home.htm#firstlogin">English</a> &nbsp;&nbsp;|&nbsp; &nbsp;<a href="http://www.baysidehighschool.org/es/help_user_group_home.htm#firstlogin">Español</a>
 		</form>
 	</div>
+	
 </div>
 
 <!--  Main: Announcements, Social Links, Events, Links, Bayside Publication, Weather -->
@@ -158,22 +176,24 @@
 	<div class ="announcement">
 		<p><img src="images\Bayside High School - Homepage_files\ico_urgent_triangle.gif " style="float:left"/><b>eChalk Update</b> - All student accounts have been created and all classes have been uploaded. 
 		Students: your user name is your firstname.lastname and your password is your 9 digit OSIS#. 
-		If you have any questions, please email <a href="smiller@baysidehighschool.org">smiller@baysidehighschool.org</a></P
-		
+		If you have any questions, please email <a href="smiller@baysidehighschool.org">smiller@baysidehighschool.org</a></p>
 		<p><b>Pupil Path Update</b> - Incoming students will receive a letter containing their pupil path user names and passwords during their guidance counselor appointment. 
 		Parent information (user names and passwords) are also on this letter.</p>
+		<hr>
 		<img src="images\Bayside High School - Homepage_files\newspaper.png " style="float:left; height:60px"/>
 		<p>The 1st meeting for our school newspaper (The Baysider) will be on September 23rd, during period 11, in room B6.
 		We are looking for writers, photographers, and artists. All are welcome!</p>
+		<hr>
 		</div>
 		<div class="announcements">
 		
 
-		<p><b><i>WELCOME BACK!   FALL 2014 INFORMATION</i></u></p>
+		<p><b><i>WELCOME BACK!   FALL 2014 INFORMATION</i></b></p>
 		<p>Please visit <a href="http://www.pupilpath.com">www.pupilpath.com</a> for Summer Course & Regents grades, listed under 2013-2014, Term 7.</p>
 		Please download a copy of our<a href="new bell schedule for the 2014-15 school year!">new bell schedule for the 2014-15 school year!</a>
-		<p><img src="images\Bayside High School - Homepage_files\beaker.gif " style="float:left"/><b><a href="http://www.baysidehighschool.org/www/bayside/site/hosting/AP%20Chem%20summer.pdf">AP Chemistry Summer Assignment</a> - due the first day of school
-
+		<hr>
+		<p><img src="images\Bayside High School - Homepage_files\beaker.gif " style="float:left"/><b><a href="http://www.baysidehighschool.org/www/bayside/site/hosting/AP%20Chem%20summer.pdf">AP Chemistry Summer Assignment</a></b> - due the first day of school
+		
 		<h2><strong><br>PROSPECTIVE STUDENTS</br></strong></h2>
 		<div>There will be 2 open house dates in the fall for the 2015-2016 school year:</div>
 		<div><b><strong>Tuesday, October 21, 2014</strong></b></div>
@@ -204,10 +224,11 @@
 		</ul>
 		<p>Plan on arriving 1/2 hour before the scheduled audition time. </p> 
 		<p>You do not need a ticket or an appointment. </p>
+		<hr>
 		<p>PTA SAT Prep Course for Fall 2014
 		<p>Monday/Wednesday Classes after 9th Period start September 22, 2014
 		<p>Saturday Morning Classes start September 20, 2014
-
+		<hr>
 		<p><img src="images\Bayside High School - Homepage_files\studenttakingtest.gif"/>The Princeton Review is at Bayside High School.</p>
  
 		The Princeton Review is pleased to announce that Bayside High School continues to be a Princeton Review Partner in Education. 
@@ -220,14 +241,17 @@
 		<p>You may also call The Princeton Review New York City office at 800-273-8439 Ext. 1098 or email us at <a href="https://mail.nycboe.net/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.nycboe.net%2fowa%2fredir.aspx%3fC%3dZ_Dl868RTkKgrRE-nQeiv_M7vAqJo9AIzg6XRMJFmebIqFVJL8XdoiS7kGDDiSP7O4joaOaOVMU.%26URL%3dmailto%253aInfo.NY%2540Review.com">Info.NY@Review.com.</a></p>
   
 		<p>For more details, go to <a href="">Guidance / SAT.</a></p>
+		<hr>
 		<p>Need graphic design services? Check us out!</p>
 		<img src="images\Bayside High School - Homepage_files\graphicwebfishing.jpg"/>
+		<hr>
 		<p><img src="images\Bayside High School - Homepage_files\ico_urgent_triangle.gif " style="float:left"/>Dear Parents and Guardians:</p>
 		<p>Nothing matters to us more than the safety of your child.
 		Bayside High School is instituting a new policy for all students to keep our learning environment safe and secure for all students and staff.  
 		It is now required that students swipe-out at the end of their day by the Auditorium Lobby Exit which leads to 32nd Avenue or the Main Entrance which leads to Corporal Kennedy Street. 
 		Students swipe –in early in the morning and the time is recorded by computer. Upon exiting the building students will once again swipe-out and the computer will record their departure time.</p>
 		<p><a href="http://www.baysidehighschool.org/site_view_announcement.aspx?id=c9b510bd-98e3-4d52-b076-2b594ea91290&messageId=039d9a1f-5b99-4ea8-b994-21711469199f&bx=NotSet&cm=NotSet">read more...</a></p>
+		<hr>
 		<p>Apply for Free or Reduced Price School Meals!</p>
 
 		<p>Go to <a href="https://www.applyforlunch.com/">applyforlunch.com</a> and complete the online application. Your child(ren) may be eligible for free or reduced price meals.<img src="images\Bayside High School - Homepage_files\sack_lunch.gif" style="float :right"/></p>
@@ -236,16 +260,12 @@
 		<a href="http://www.baysidehighschool.org/www/bayside/site/hosting/Letter%20Home%20for%20Lunch%20Forms%202009.pdf">Letter / Instructions from Mr. Athy about Lunch Forms</a>.</p>
 
 		<p>Add money to your student’s Account for Lunch at <a href="https://mail.nycboe.net/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.nycboe.net%2fowa%2fredir.aspx%3fC%3dxK036a1yGEe-dZRvUsw2D5-iMQydn9AIcKH1bnG-wIiDIw_6TQraw_9Pw1y0E1HWkL1ven7CXNQ.%26URL%3dhttp%253a%252f%252fwww.mylunchmoney.com">www.mylunchmoney.com</a></p>
-		<p><a href="http://baysidehighschoolstore.propellshops.com/index.php?main_page=index&ts=1">Bayside High School School Store</a></p>
+		<hr><p><a href="http://baysidehighschoolstore.propellshops.com/index.php?main_page=index&ts=1">Bayside High School School Store</a></p>
 		<p>Get your Bayside HS gear:
 		<p>shirts, hoodies, water bottles, mugs, and more! </p>
 		<img src="images\Bayside High School - Homepage_files\shop.png"/>
 
 	</div>
-	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 	</div>
 	<div id="socialLinks">
 		<img src="images\Bayside High School - Homepage_files\facebook_twitter_logo.jpg">
@@ -264,20 +284,58 @@
 
 	<div id="events">
 		<a href="">Upcoming Events</a><img src="images\Bayside High School - Homepage_files\rss_button.gif"/>
-		
+		<hr>
+		<p><h2>Monday, September 29</h2>
+		<h4>Spirit Week
+		Comfy Cozy Day</h4>
+		<br>
+		<h3>SUNY Maritime college visit</h3>
+		<h4>SUNY Maritime college visit
+		On M 9/29, SUNY Maritime will be visiting during period 7 in the Auditorium Balcony. Please stop by room 131 the day before to pick up a pass. Passes WILL NOT be distributed the day of the college visit. They will be collected at the door, and no one may enter without one. Your teacher's signature must be on the pass in order for you to be excused for that period.
+		Please come to room 131 if you have any questions.</h4>
+        </p>
 	</div>
 		<div id="links">
 		<a href="http://www.baysidehighschool.org/addRssFeed.aspx?type=A&id=8f9bd01f-d8d9-4fa7-8110-7ca2dee22d6d&desc=">Quick Links</a>
 		<img src="images\Bayside High School - Homepage_files\rss_button.gif"/>
+		<p><a href="">Bayside High School Dress Code</a></p>
+		<hr>
+		Please sign up to be placed on the <b><em>Parent Coordinator’s email distribution list</em></b>. The form can be found <a href="">here</a>.
+		<hr>
+		<b><em><strong><a href="">MOUSE Squad Tech Support Request</a></strong></em></b>
+		<hr>
+		<a href="">General Response Protocol / Emergency Drill</a> - letter from Mr. Athy
+		<hr>
+		<img src="images\Bayside High School - Homepage_files\ico_urgent_triangle.gif " style="float:left"/><a href="">Letter to all students</a> concerning 1st and 2nd period lateness
+		<hr>
+		<a href="">PSAL (Public School Athletic League)</a> - sports calendar for all Bayside High School teams
+
+		<hr>
+		<img src="images\Bayside High School - Homepage_files\clipart_music_clefs_045.gif " style="float:left;height:60px"/><b><em><strong>Bayside High School Choir at Carnegie Hall</strong></em></b>
+		Review in <a href="">The New York Times</a>
+		<a href="">Promo Video</a> of performance
+		<a href="">Radio interview</a> with Mr. Piccirillo
+ 
+
+		<hr>
+		<img src="images\Bayside High School - Homepage_files\graduation-cap-clip-art-20.jpg " style="float:left;height:50px"/>Bayside High School <a href="">Alumni</a> Site -
+		<a href="">this site</a> has no association with the school or the school district
+		<hr>
+		<img src="images\Bayside High School - Homepage_files\ico_urgent_triangle.gif " style="float:left"/>Seasonal Flu - <a href="">a guide for parents</a>
+		<hr>
+		<a href="">NYC Department of Education</a>
 	</div>
 	<div id="baysidePublication">
 	<a href="">Bayside Publicatons</a>
 	<img src="images\Bayside High School - Homepage_files\rss_button.gif"/>
+	<hr>
 	<h2>Check out <b><em>The Baysider: Community Edition</em></b> - our newest publication!</h2>
-		<img src="images\Bayside High School - Homepage_files\baysider.gif" style="height:80px"/>
+	<img src="images\Bayside High School - Homepage_files\baysider.gif" style="height:80px"/>
+	<hr>
 	<p><b><a href="http://www.baysidehighschool.org/www/bayside/site/hosting/Soundings%202014.pdf">Soundings 2014</a></b></p>
 	<img src="images\Bayside High School - Homepage_files\Front-Back-Cover-2014-1.gif" style="float:left;height:70px"/>
 	BHS Literary Magazine - If you would like to purchase a copy, please see Ms. Ormaechea in room 131.
+	<hr>
 	<p>View <b>The Baysider</b> (our school newspaper) </p>
 	<p>Link to The <a href="http://thebaysider.wordpress.com/">Baysider Blog</a></p>
 	<img src="images\Bayside High School - Homepage_files\newspaper_bw.png"/>
@@ -289,14 +347,31 @@
 	<h3><a href="">November 2013</a></h3>
 	</div>
 	<div id="weather">
+	<a href="">WEATHER</a>
+
+	<script type="text/javascript" src="http://voap.weather.com/weather/oap/USGA0028?template=GENXH&par=3000000007&unit=0&key=twciweatherwidget"></script>
 	</div>
 </div>
 <!-- Footer: Address, Company Logo, Company Links, Select Language -->
 <div id="footer">
-	<div id="address"></div>
-	<div id="companyLinks"></div>
-	<div id="companyLogo"></div>
-	<div id="language"></div>
+	<div id="add">
+	<h5>Bayside High School, 3224 Corporal Kennedy Street, Bayside, NY 11361-1061</h5>
+	<h5>Phone: (718) 229-7600  |  Fax: (718) 423-9566</h5>
+	<p><a href="http://www.baysidehighschool.org/directions">Locate School</a></p>
+	</div>
+	<div id="companyLinks">
+	<a href="http://www.baysidehighschool.org/directions">Contact US</a>&nbsp;|&nbsp;
+	<a href="http://www.baysidehighschool.org/userpolicy">User Policy</a>
+
+	</div>
+	<div id="companyLogo">
+		<img src="http://www.baysidehighschool.org/themes/contemporary/images/echalkPower.gif">
+	</div>
+	<div id="language">
+	<div id="google_translate_element">
+	<a href="https://translate.google.com/?hl=en">Google Translator</a>
+		</div>
+	</div>
 </div>
 
 
